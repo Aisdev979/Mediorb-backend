@@ -33,6 +33,10 @@ export function createApp() {
   app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
   app.get('/api-docs.json', (_req, res) => res.json(swaggerSpec));
 
+  app.get('/', (_req, res) => {
+    res.json({ status: 'ok', message: 'Welcome to Mediorbs API' });
+  });
+
   app.get('/api/health', (_req, res) => {
     res.json({ status: 'ok', service: 'mediorb-api' });
   });
