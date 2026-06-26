@@ -1,0 +1,17 @@
+export { User } from './user.model';
+export { OtpCode } from './otp.model';
+export { Specialty } from './specialty.model';
+export { Hospital } from './hospital.model';
+export { Department } from './department.model';
+export { Appointment } from './appointment.model';
+export { QueueEntry } from './queueEntry.model';
+export { Consultation } from './consultation.model';
+export { Prescription } from './prescription.model';
+export { MedicalRecord } from './medicalRecord.model';
+export { HealthCard } from './healthCard.model';
+export { FastingGuide } from './fastingGuide.model';
+export { Notification } from './notification.model';
+export { Reminder } from './reminder.model';
+export { VerificationDocument } from './verificationDocument.model';
+export { SupportTicket } from './supportTicket.model';
+export { UssdSession } from './ussdSession.model';
